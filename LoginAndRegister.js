@@ -95,7 +95,7 @@ describe("run the test cases", function () {
     });
 
     describe(TEST_CASE_NAME_REGISTER_001, function () {
-        it ('Login ol', function(){
+       it ('Login ol', function(){
             console.log('LOGIN OL');
             return true;
             .sleep(1000)
@@ -121,9 +121,9 @@ describe("run the test cases", function () {
             .elementByXPath(REGISTER_SCREEN_REGISTER_BUTTON)
             .click()
             .sleep(3000)
-    //      .elementByXPath(REGISTER_SCREEN_OTP_BUTTON)
-    //      .click()
-    //      .sleep(500)
+            .elementByXPath(REGISTER_SCREEN_OTP_BUTTON)
+            .click()
+            .sleep(500)
             .sleep(3000)
             .elementByXPath(QR_CODE_SCREEN_OPEN_MENU)
             .click()
